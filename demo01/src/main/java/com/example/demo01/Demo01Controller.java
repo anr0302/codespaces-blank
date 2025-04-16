@@ -10,4 +10,8 @@ public class Demo01Controller {
         return "index";//to edit index.html and return it 
     }
 
+    @RequestMapping("/about")
+    String about(){
+        return "about";
+    }
 }
